@@ -3,7 +3,7 @@ oscam
 
 Oscam XML API to PHP SimpleXML or array, handles connection, auth and parsing. 
 
-```<?php
+```php
 include __DIR__ . '/../vendor/autoload.php';
 
 use graham192\OSCam\OSCam;
@@ -22,5 +22,5 @@ try {
 }catch(Exception $e){
     echo $e->getMessage()."\n";
     die();
-}```
-
+}
+```
