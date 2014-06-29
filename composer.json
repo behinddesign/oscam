@@ -1,7 +1,7 @@
 {
     "name": "graham192/oscam",
     "description": "OSCam Library",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "gpl",
     "authors": [
         {
