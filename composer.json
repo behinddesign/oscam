@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "curl/curl": "dev-master"
+        "curl/curl": "v1.1.0"
     },
     "autoload" : {
         "psr-0" : {
