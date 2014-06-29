@@ -1,0 +1,20 @@
+{
+    "name": "graham192/oscam",
+    "description": "OSCam Library",
+    "minimum-stability": "stable",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Graham",
+            "email": "graham192@googlemail.com"
+        }
+    ],
+    "require": {
+        "curl/curl": "dev-master"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "graham192\\OSCam" : "src/"
+        }
+    }
+}
