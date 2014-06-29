@@ -81,7 +81,7 @@ class OSCam
 
         $curl->get($protocol . $this->server . ":" . $this->port . $parsed_parts);
 
-        $curl->close($curl);
+        $curl->close();
 
         if ($curl->error) {
             throw new \Exception($curl->error_message);
