@@ -79,7 +79,9 @@ class OSCam
             $parsed_parts = $this->url_parts[$url_part];
         }
 
-        $curl->get($protocol . $this->server . ":" . $this->port . "/" . $parsed_parts);
+        $curl->get($protocol . $this->server . ":" . $this->port . $parsed_parts);
+
+        $curl->close();
 
         if ($curl->error) {
             throw new \Exception($curl->error_message);
